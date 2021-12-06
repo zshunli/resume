@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft JhengHei ', Times, serif;
+}
+
+body{
+    background-color: #eeeced;
+    height: 100%;
+}
+
+main{
+    min-height: calc(100% - 100px);
+}
+
+.myself{
+    background-color: #eeeced;
+}
+
+.ground{
+    background-color: #5f4b3e;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0 60px 0;
+}
+
+.blank{
+    width: 500px;
+    height: 100px;
+}
+
+.myphoto{
+    background-color: #ffffff;
+    height: 250px;
+    width: 250px;
+    border: #5f4b3e solid 1px;
+    border-radius: 50%;
+}
+
+.contact{
+    background-color: #eeeced;
+    width: 500px;
+    height: 130px;
+    margin-top: 80px;
+    border-radius: 30px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+
+img.icon:hover{
+    transform: translateY(-35px);
+}
+
+.name{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    letter-spacing: 10px;
+    margin: 30px 0;
+}
+
+.position{
+    display: flex;
+    justify-content: center;
+}
+
+.triangle1{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 25px;
+    border-color: transparent transparent transparent #eeeced;
+    position: relative;
+    left: 25px;
+}
+
+.sentence{
+    background-color: #5f4b3e;
+    color: #ffffff;
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+
+.triangle2{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 25px 25px 0;
+    border-color: transparent #eeeced transparent transparent;
+    position: relative;
+    left: -25px;
+}
+
+hr{
+    margin: 0 10%;
+}
+
+/*技能條和經歷*/
+.side{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.left{
+    width: 400px;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 10px 0;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.skillname{
+    width: 235px;
+    height: 30px;
+}
+
+.loading {
+    background-color: #dbccc1;
+    width: 400px;
+    height: 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: #5f4b3e 3px solid;
+    overflow: hidden;
+  }
+  
+#sk1 {
+    height: 24px;
+    width: 85%;
+    background-color: #5f4b3e;
+    animation: ski1 5s ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ski1 {
+    0% {
+      width: 0;
+    }
+  
+    100% {
+      width: 85%;
+    }
+}
+
+.divide{
+    width: 5px;
+    background-color: #5f4b3e;
+}
+
+.right{
+    width: 400px;
+    font-size: 25px;
+}
+
+.experience{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.time{
+    writing-mode:vertical-rl;
+    margin: 10px 0;
+    border-right: #5f4b3e 1px solid;
+}
+
+footer{
+    background-color: #5f4b3e;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+}
