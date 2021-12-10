@@ -184,14 +184,12 @@ hr{
     background-color: #dbccc1;
     width: 400px;
     height: 30px;
-    box-sizing: border-box;
     border-radius: 10px;
-    border: #5f4b3e 3px solid;
     overflow: hidden;
   }
   
 #sk1 {
-    height: 24px;
+    height: 30px;
     width: 80%;
     background-color: #5f4b3e;
     animation: ski1 5s ease;
@@ -209,7 +207,7 @@ hr{
 }
 
 #sk2 {
-    height: 24px;
+    height: 30px;
     width: 74%;
     background-color: #5f4b3e;
     animation: ski2 5s ease;
@@ -227,7 +225,7 @@ hr{
 }
 
 #sk3 {
-    height: 24px;
+    height: 30px;
     width: 85%;
     background-color: #5f4b3e;
     animation: ski3 5s ease;
@@ -245,7 +243,7 @@ hr{
 }
 
 #sk4 {
-    height: 24px;
+    height: 30px;
     width: 78%;
     background-color: #5f4b3e;
     animation: ski4 5s ease;
@@ -263,7 +261,7 @@ hr{
 }
 
 #sk5 {
-    height: 24px;
+    height: 30px;
     width: 65%;
     background-color: #5f4b3e;
     animation: ski5 5s ease;
