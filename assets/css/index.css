@@ -142,12 +142,12 @@ hr{
 
 /*技能條*/
 .skillbox{
-    width: 400px;
+    width: 350px;
     font-size: 25px;
 }
 
 .row2{
-    width: 400px;
+    width: 350px;
     margin: 0 auto;
 }
 
@@ -161,7 +161,7 @@ hr{
 
 .skillbox ul{
     list-style: none;
-    width: 400px;
+    width: 350px;
 }
 
 .skillbox li{
@@ -176,13 +176,13 @@ hr{
 }
 
 .skillname{
-    width: 400px;
+    width: 350px;
     height: 30px;
 }
 
 .loading {
     background-color: #dbccc1;
-    width: 400px;
+    width: 350px;
     height: 30px;
     border-radius: 10px;
     overflow: hidden;
@@ -369,49 +369,12 @@ h2::after {
 }
 /*經歷時間軸*/
 
-
-.other{
-    width: 400px;
-}
-
-.other p{
-    width: 400px;
-    background-color: #cfae8b ;
-    font-weight: bold;
-    font-size: 32px;
-    text-align: center;
-    margin: 50px 0;
-}
-
-.other a{
-    color: black;
-    text-decoration: none;
-}
-
-.highschool{
-    width: 400px;
-    text-align: center;
-    line-height: 25px;
-}
-
-.highschool:hover{
-    opacity: 50%;
-}
-
-.highschool p{
-    font-size: 25px;
-}
-
-.highschool img{
-    height: 410px;
-}
-
-.results, .pbox{
+.results, .pbox, .other{
     width: 80%;
     margin: auto;
 }
 
-.results p, .pictext{
+.results p, .pictext, .other p{
     width: 80%;
     background-color: #cfae8b ;
     font-weight: bold;
@@ -479,6 +442,19 @@ h2::after {
     margin-top: 60px;
     text-align: right;
     background-color: #fff;
+}
+
+.other div{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.other img{
+    width: 100%;
+}
+
+.other img:hover{
+    opacity: 50%;
 }
 
 footer{
